@@ -26,5 +26,6 @@ body{
 }
 
 .main-index{
-    background-image: url("images/background-img.jpg");
+
+    background-image: url('images/background.jpg');
 }
