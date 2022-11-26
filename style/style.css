@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FBF7F4;
+    color: #242424;
+}
+
+/* Pages*/
+.page-header{
+    color: #ffffff;
+    background: #000000;
+}
+
+.navigation-link{
+    font-family: "PT Sans Narrow", sans-serif;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-index{
+    background-image: url("images/background-img.jpg");
+}

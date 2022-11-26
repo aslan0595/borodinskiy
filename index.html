@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
     <title>Барбершоп "Бородинский"</title>
 </head>
 <body>
+
+    <!--header-->
     <header class="page-header">
         <nav class="navigation">
             <ul class="navigation-list">
@@ -33,10 +36,16 @@
             </li>
         </ul>
     </header>
-    <main class="main-index">
-        <h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
-        <img src="" alt="Логотип Барбершопа Бородинский">
 
+
+    <main class="main-index">
+
+        <!--main title-->
+        <h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
+         <!--Logo-->
+        <img class="logo" src="images/logo-full.png" width="367" height="152" alt="Логотип Барбершопа Бородинский">
+
+        <!--advantages-->
         <section class="advantages">
             <h2 class="visually-hidden">Преймущества</h2>
             <ul class="advantages-list">
@@ -58,6 +67,8 @@
                 </li>
             </ul>
         </section>
+
+        <!--popular services-->
         <section class="services">
             <h2 class="services-title">Популярные услуги</h2>
             <ul class="servies-list">
@@ -80,9 +91,11 @@
             </ul>
             <a href="#" class="button button-all">Посмотреть все</a>
         </section>
+
+        <!--gallery-->
         <section class="gellery">
             <h2 class="gellery-title">Фотогаллерея</h2>
-            <img class="slider-image" src="" alt="Примеры работ">
+            <img class="slider-image" src="images/gallery1 (1).jpg" width="390px" height="250px" alt="Примеры работ">
             <button class="slider-button button-prev" type="button">
                 <span class="visually-hidden">Предыдущее фото</span>
             </button>
@@ -116,6 +129,8 @@
                 </li>
             </ol>
         </section>
+
+        <!--contacts-->
         <section class="contacts">
             <h2 class="contact-title">Контакты</h2>
             <h3 class="contact-subtitle">Барбершоп «Бородинский»</h3>
@@ -132,6 +147,8 @@
             <a href="#" class="button">Как проехать</a>
             <a href="#" class="button button-feedback">Обратная связь</a>
         </section>
+
+        <!--form appointment-->
         <section class="appointment">
             <h2 class="appointment-item">Записаться</h2>
             <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони.</p>  
@@ -172,10 +189,13 @@
                 <button class="button" type="submit">Записаться</button>
             </form>
         </section>
+    </main>
+
+    <!--footer-->
         <footer class="page-footer">
             <section class="footer-contacts">
                 <h2 class="visually-hidden">Контакты</h2>
-                <img src="" alt="Логотип Барбершопа «Бородинский»" class="footer-contacts-logo">
+                <img src="images/logo-footer.svg" width="187px" height="24px" alt="Логотип Барбершопа «Бородинский»" class="footer-contacts-logo">
                 <address class="fotter-contacts-adress">
                     <p class="about-text">Санкт-Петербург, набережная
                         реки Карповки, 5, литера П.</p>
@@ -209,6 +229,5 @@
                 <p class="about-text">Сделано в <a href="ttps://htmlacademy.ru/">html academy</a></p>
             </section>
         </footer>
-    </main>
 </body>
 </html>
