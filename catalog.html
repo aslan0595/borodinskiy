@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
     <title>Каталог</title>
 </head>
 <body>
@@ -11,7 +12,7 @@
     <header class="page-header">
         <nav class="navigation">
             <a href="index.html" class="navigation-logo">
-                <img src="" class="page-header-logo" alt="Логотип Барбершоп «Бородинский»"></a>
+                <img src="../borodinskiy/images/logo.svg" class="page-header-logo" alt="Логотип Барбершоп «Бородинский»"></a>
             <ul class="navigation-list">
                 <li class="navigation-item">
                     <a class="navigation-link" href="about.html">О нас</a>
@@ -168,6 +169,7 @@
             <button class="bitton" type="submit">Показать</button>
         </form>
 
+        <div class="sorting-container">
         <form class="sorting-type">
             <label class="visually-hidden" for="sorting">Сортировка</label>
             <select class="select-control" name="sorting" id="sorting">
@@ -183,10 +185,13 @@
         <a href="#" class="button ">
             <span class="visually-hidden">Показать карточки</span>
         </a>
-        <ul>
+    </div>
+
+        <!--product-list-->
+        <ul class="product-list">
         <li class="product-card">
             <a href="product.html" class="product-card-link">
-                <img class="product-card-image" src="" alt="">
+                <img class="product-card-image" src="images/catalog/catalog1.jpg" alt="">
                 <h3 class="product-card-title">Шампунь для мужчин Brews Daily</h3>
             </a>
             <b class="product-card-price">744₽</b>
@@ -195,7 +200,7 @@
 
         <li class="product-card">
             <a href="product.html" class="product-card-link">
-                <img class="product-card-image" src="" alt="">
+                <img class="product-card-image" src="images/catalog/catalog2.jpg" alt="">
                 <h3 class="product-card-title">Syoss шампунь Men Power &amp; Strength</h3>
             </a>
             <b class="product-card-price">160₽</b>
@@ -203,7 +208,7 @@
         </li>
         <li class="product-card">
             <a href="product.html" class="product-card-link">
-                <img class="product-card-image" src="" alt="">
+                <img class="product-card-image" src="images/catalog/catalog3.jpg" alt="">
                 <h3 class="product-card-title">Schauma шампунь для мужчин «Сила и объём с хмелем»</h3>
             </a>
             <b class="product-card-price">94₽</b>
@@ -211,7 +216,7 @@
         </li>
         <li class="product-card">
             <a href="product.html" class="product-card-link">
-                <img class="product-card-image" src="" alt="">
+                <img class="product-card-image" src="images/catalog/catalog4.jpg" alt="">
                 <h3 class="product-card-title">Nivea Men шампунь-уход «Экстремальная свежесть с ментолом»</h3>
             </a>
             <b class="product-card-price">173₽</b>
@@ -219,7 +224,7 @@
         </li>
         <li class="product-card">
             <a href="product.html" class="product-card-link">
-                <img class="product-card-image" src="" alt="">
+                <img class="product-card-image" src="images/catalog/catalog5.jpg" alt="">
                 <h3 class="product-card-title">Шампунь Amplifier Thickening</h3>
             </a>
             <b class="product-card-price">441₽</b>
@@ -227,7 +232,7 @@
         </li>
         <li class="product-card">
             <a href="product.html" class="product-card-link">
-                <img class="product-card-image" src="" alt="">
+                <img class="product-card-image" src="images/catalog/catalog6.jpg" alt="">
                 <h3 class="product-card-title">American Crew шампунь Anti-Dandruff</h3>
             </a>
             <b class="product-card-price">904₽</b>
@@ -268,7 +273,7 @@
     <footer class="page-footer">
         <section class="footer-contacts">
             <h2 class="visually-hidden">Контакты</h2>
-            <img src="" alt="Логотип Барбершопа «Бородинский»" class="footer-contacts-logo">
+            <img src="../borodinskiy/images/logo-footer.svg" alt="Логотип Барбершопа «Бородинский»" class="footer-contacts-logo">
             <address class="fotter-contacts-adress">
                 <p class="about-text">Санкт-Петербург, набережная
                     реки Карповки, 5, литера П.</p>
@@ -299,7 +304,7 @@
                     <a href="" class="button"><span class="visually-hidden">Инстаграм</span></a>
                 </li>
             </ul>
-            <p class="about-text">Сделано в <a href="ttps://htmlacademy.ru/">html academy</a></p>
+            <p class="about-text">Сделано в <a class="htmlacademy-link" href="ttps://htmlacademy.ru/">html academy</a></p>
         </section>
     </footer>
 </body>

@@ -8,6 +8,20 @@ body{
     color: #242424;
 }
 
+
+.button{
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
 /* Pages*/
 .page-header{
     color: #ffffff;
@@ -26,6 +40,252 @@ body{
 }
 
 .main-index{
+    color: #ffffff;
+    background-color: #000000;
+    background-image: url("../images/background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
 
-    background-image: url('images/background.jpg');
+.advantages-list{
+    text-align: center;
+}
+
+.advantages-title{
+    font-family: "PT Sans Narrow" sans-serif;
+    font-size: 32px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+/* Index columns*/
+.index-columns{
+    color: #242424;
+    background-color: #FBF7F4;
+    background-image: url(../images/noisy-texture-80x80-o8-d27-c-1f1f1f-t1\ 1.png);
+} 
+
+/*Services*/
+.services {
+    text-transform: uppercase;
+}
+
+/*Title*/
+.services-title {
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+/*Price*/
+.servies-list{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.services-price{
+    color: #af7842;
+}
+
+/*Title*/
+.gallery-title{
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contacts{
+    font-weight: 700;
+}
+
+/*Title*/
+.contact-title{
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contacts-address{
+    font-style: normal;
+}
+
+/*subtitle*/
+.contact-subtitle{
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #af7842;
+}
+
+/*Phone*/
+.contacts-phone{
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #242424;
+}
+
+/*Title*/
+.appointment-title{
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*List*/
+.appointment-form{
+    color: #595959;
+}
+
+/*Label*/
+.form-label{
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*Footer*/
+.page-footer{
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #242424;
+    background-image: url(../images/noisy-texture-80x80-o8-d27-c-1f1f1f-t1\ 1.png);
+    background-repeat: repeat;
+}
+.page-footer a {
+    color: #ffffff;
+}
+
+.page-footer .htmlacademy-link{
+    font-size: 14px;
+    color: #dbb590;
+}
+
+.page-footer-title{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color:#ffffff;
+    text-transform: uppercase;
+}
+
+.footer-contacts-adress{
+    font-style: normal;
+}
+.footer-contacts-adress p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.footer-contacts-adress-phone {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.footer-contacts-map-link {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+/*Catalog*/
+.main-inner{
+    color: #242424;
+    background-color: #FBF7F4;
+    background-image: url(../images/noisy-texture-80x80-o8-d27-c-1f1f1f-t1\ 1.png);
+}
+
+.inner-header-title{
+    font-size: 32px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+/*breadcrumbs*/
+.breadcrumbs{
+    color: #242424;
+}
+.breadcrumbs-link{
+    color: inherit;
+}
+
+.catalog-filter-title{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #242424;
+    text-transform: uppercase;
+}
+
+.control-label {
+    font-weight: 700;
+}
+
+.sorting-container {
+    color: #000000;
+    background-color: #ffffff;
+}
+/*Light*/
+.button-light{
+    color: #242424;
+    background-color: #ffffff;
+}
+
+/*Item*/
+.product-card{
+    background-color: #ffffff;
+}
+/*Link*/
+.product-card-link {
+text-decoration: none;
+}
+/*Title*/
+.product-card-title {
+font-weight: 700;
+color: #242424;
+}
+/*Price*/
+.product-card-price{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #814b18;
+    text-transform: uppercase;
+}
+
+/*Link*/
+.pagination{
+    background-color: #ffffff;
+}
+.pagination-link{
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    line-height: 16px;
+    font-weight: 700;
+}
+.pagination-current{
+    color: #242424;
+    border-color: #ffffff;
+}
+.pagination-disabled{
+    background-color: #595959;
 }
