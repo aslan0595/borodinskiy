@@ -471,9 +471,13 @@ margin: 0;
 
 /*Item*/
 .product-list{
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    gap: 20px;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-bottom: 24px;
 }
 
 .product-card{
@@ -489,6 +493,7 @@ font-weight: 700;
 color: #242424;
 }
 /*Price*/
+
 .product-card-price{
     font-size: 24px;
     line-height: 29px;
