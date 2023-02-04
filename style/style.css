@@ -482,15 +482,33 @@ margin: 0;
 
 .product-card{
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card-content{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: auto;
 }
 /*Link*/
 .product-card-link {
 text-decoration: none;
 }
 /*Title*/
+.product-card-title-link{
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
 .product-card-title {
 font-weight: 700;
 color: #242424;
+}
+
+.product-card-button {
+    margin-top: auto;
 }
 /*Price*/
 
@@ -500,6 +518,7 @@ color: #242424;
     font-weight: 700;
     color: #814b18;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 /*Link*/
