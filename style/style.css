@@ -32,6 +32,7 @@ body{
 
 .button{
     display: inline-block;
+    box-sizing: border-box;
     padding: 14px 20px;
     font-family: inherit;
     font-size: 16px;
@@ -48,6 +49,13 @@ body{
 
 .button + .button{
     margin-left: 16px;
+}
+.button-all{
+padding-right: 44px;
+background-image:url("../images/stroke1.svg");
+background-repeat: no-repeat;
+background-size: 16px 16px;
+background-position: center right 20px;
 }
 
 /* Pages*/
@@ -85,6 +93,7 @@ min-height: 22px;
 
 
 .navigation-link{
+    position: relative;
     display: block;
     padding: 24px 19px;
     font-family: "PT Sans Narrow", sans-serif;
@@ -97,6 +106,24 @@ min-height: 22px;
     text-transform: uppercase;
 }
 
+.navigation-icon{
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+margin: auto;
+fill: #dbdbdb;
+}
+
+.navigation-link-login{
+padding-left: 44px;
+}
+.navigation-link-login .navigation-icon{
+    right: auto;
+    left: 20px;
+    margin:auto 0;
+}
 .main-container{
     flex-grow: 1;
     padding-top: 64px;
@@ -405,6 +432,17 @@ margin: 0;
     text-transform: uppercase;
 }
 
+.news-letter-form{
+    display: flex;
+}
+.newsletter-button{
+    width: 56px;
+    height: 44px;
+    background-image: url(../images/Stroke2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+}
 .footer-social{
     margin-left:auto;
     max-width: 190px;
@@ -431,7 +469,26 @@ margin: 0;
     margin-right: 0;
 }
 
-
+.footer-social-link {
+    display: block;
+    height: 44px;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+  }
+  
+  .footer-social-tw {
+    background-image: url(../images/twitter.svg);
+  }
+  
+  .footer-social-vk {
+    background-image: url(../images/vk.svg);
+  }
+  
+  .footer-social-inst {
+    background-image: url(../images/instagram.svg);
+  }
 
 
 
@@ -511,6 +568,27 @@ margin: 0;
 .sorting-type{
     margin-right: auto;
 }
+
+.card-grid-toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 44px;
+    background-color: #000000;
+}
+.card-grid-toggle svg {
+    fill: #FFFFFF;
+}
+.card-grid-toggle-current {
+    background-color: #FFFFFF;
+  }
+  
+  .card-grid-toggle-current svg {
+    fill: #000000;
+  }
+
+
 /*Light*/
 .button-light{
     color: #242424;
