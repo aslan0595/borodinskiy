@@ -498,9 +498,7 @@ margin: 0;
     margin: 0;
 }
 
-.appointment-form  .info{
-    display: none;
-  }
+
 .appointment-form-name{
     grid-column: 1/-1;
 }
@@ -548,10 +546,9 @@ margin: 0;
     padding: 0;
     border-color: transparent;
     border: none;
-    background-image: url(../images/info.svg);
+    background-image: url(../images/i.svg);
     background-repeat: no-repeat;
     background-position: center;
-    z-index: 100;
 }
 
 /*Footer*/
