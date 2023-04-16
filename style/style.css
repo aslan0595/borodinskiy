@@ -16,6 +16,7 @@ body{
     line-height: 24px;
     background-color: #FBF7F4;
     color: #242424;
+    min-width: 1020px;
 }
 
 
@@ -109,6 +110,7 @@ background-position: center right 20px;
     width: 940px;
     margin: 0 auto;
     padding: 0;
+    
 }
 
 .navigation-list{
@@ -139,7 +141,7 @@ min-height: 22px;
 .navigation-link{
     position: relative;
     display: block;
-    padding: 24px 19px;
+    padding: 24px 20px;
     font-family: "PT Sans Narrow", sans-serif;
     line-height: 22px;
     font-weight: 700;
@@ -224,8 +226,9 @@ padding-left: 44px;
 
 
 .advantages-list{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    gap: 30px 54.5px;
+    grid-template-columns: 277px 277px 277px;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -248,11 +251,11 @@ padding-left: 44px;
 
 .advantages-title::before{
     position: absolute;
-    bottom: -40px;
+    bottom: -35px;
     left: 50%;
-    width: 18px;
-    height: 18px;
-    margin-left: -9px;
+    width: 13px;
+    height: 13px;
+    margin-left: -6.5px;
     background-color: #ffffff;
     content: "";
     transform: rotate(45deg);
@@ -339,6 +342,7 @@ margin: 0;
 .services-price{
     order: 3;
     color: #af7842;
+    word-spacing: 3px;
 }
 
 /*Title*/
@@ -444,7 +448,7 @@ margin: 0;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 0;
-    margin-bottom: 28px;
+    margin-bottom: 24px;
     font-family: "PT Sans Narrow", sans-serif;
 }
 
@@ -458,6 +462,7 @@ margin: 0;
     margin-bottom: 8px;
     font-size: 20px;
     line-height: 28px;
+    font-family: "PT Sans Narrow", sans-serif;
     text-transform: uppercase;
     color: #af7842;
 }
@@ -484,6 +489,11 @@ margin: 0;
 .contacts-navigation{
     margin-top: 21px;
     margin-bottom: 0;
+}
+
+.contacts-navigation .button{
+    margin-right: 13px;
+    margin-bottom: 5px;
 }
 /*Title*/
 .appointment{
@@ -519,13 +529,16 @@ margin: 0;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 0;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
     font-family: "PT Sans Narrow", sans-serif;
 }
 
 /*List*/
-.appointment-form{
+.appointment-info{
     color: #595959;
+    font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 22px;
 }
 
 /*Label*/
@@ -673,6 +686,11 @@ margin: 0;
     text-decoration: underline;
     text-transform: uppercase;
 }
+
+.newsletter{
+    min-width: 300px;
+}
+
 .newsletter-email{
     flex-grow: 1;
     margin: 0;
@@ -853,6 +871,7 @@ margin: 0;
 /*breadcrumbs*/
 .breadcrumbs { 
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     margin-bottom: 32px;
     padding: 0;
@@ -871,7 +890,7 @@ margin: 0;
   
   .breadcrumbs-item::after {
     position: absolute;
-    top: 10px;
+    top: 7px;
     right: -20px;
     width: 8px;
     height: 8px;
@@ -906,14 +925,20 @@ border: none;
     color: #242424;
     text-transform: uppercase;
     margin-bottom: 22px;
+    padding: 0;
 }
-
+.range{
+    max-width: 220px;
+    overflow: auto;
+    padding-top: 8px;
+}
 .range-scale{
     position: relative;
     height: 4px;
     margin-bottom: 16px;
     background-color: #242424;
     border-radius: 2px;
+    margin-top: 16px;
 }
 
 .range-bar{
@@ -945,6 +970,7 @@ outline: 3px solid #dbb590;
     position: relative;
     display: block;
     padding-left: 36px;
+    line-height: 22px;
 }
 
 .control-mark{
@@ -1055,6 +1081,8 @@ outline: 3px solid #dbb590;
 
 .sorting-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     color: #000000;
     background-color: #ffffff;
     margin-bottom: 16px;
@@ -1188,6 +1216,7 @@ color: #242424;
     color: #814b18;
     text-transform: uppercase;
     margin-bottom: 16px;
+    letter-spacing: -2px;
 }
 
 /*Link*/
@@ -1199,9 +1228,14 @@ color: #242424;
 
 .pagination{
    display: flex;
+   flex-wrap: wrap;
    margin: 0;
    padding: 0;
    list-style-type: none;
+}
+
+.pagination-item{
+    margin-bottom: 5px;
 }
 
 .pagination-item:not(:last-child){
@@ -1211,8 +1245,8 @@ color: #242424;
 .pagination-link{
     display: block;
     box-sizing: border-box;
-    width: 50px;
-    height: 44px;
+    min-width: 50px;
+    min-height: 44px;
     padding: 14px 20px;
     color: #ffffff;
     background-color: #000000;
@@ -1242,16 +1276,20 @@ color: #242424;
 
 .pagination-prev {
   background-image: url("../images/stroke-right.svg");
-  background-position: center;
+  background-position: 16px center;
   background-size: 16px 16px;
   background-repeat: no-repeat;
+  padding-left: 40px;
+  padding-right: 18px;
 }
 
 .pagination-next {
   background-image: url("../images/stroke1.svg");
-  background-position: center;
+  background-position: 16px center;
   background-size: 16px 16px;
   background-repeat: no-repeat;
+  padding-left: 40px;
+  padding-right: 18px;
 }
 
 .pagination-disabled {
@@ -1261,6 +1299,7 @@ color: #242424;
 /* Show more */
 .pagination-show-more {
   margin-left: auto;
+  min-width: 170px;
 }
 
 /* Without background */
